@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a, nav button {
+            color: white;
+            text-decoration: none;
+            background-color: #666;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        nav a:hover, nav button:hover {
+            background-color: #888;
+        }
+        .product {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #fff;
+            margin: 10px;
+        }
+        .product img {
+            width: 200px;
+            height: 200px;
+        }
+        .product p {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Shopping</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <button>Cart</button>
+    </nav>
+    <div class="product">
+        <img src="product_image.jpg" alt="A stylish pair of jeans">
+        <p>Description of the product goes here...</p>
+    </div>
+    <footer>
+        <p>© 2022 Online Shopping Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
